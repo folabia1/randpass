@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/randpass/static/css/main.9ee1a835.css",
+    "main.js": "/randpass/static/js/main.29b4bfb1.js",
+    "index.html": "/randpass/index.html",
+    "main.9ee1a835.css.map": "/randpass/static/css/main.9ee1a835.css.map",
+    "main.29b4bfb1.js.map": "/randpass/static/js/main.29b4bfb1.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9ee1a835.css",
+    "static/js/main.29b4bfb1.js"
+  ]
+}
