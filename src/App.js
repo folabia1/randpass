@@ -1,7 +1,8 @@
 import React, { useState } from 'react';
 import './App.css';
 import { PasswordArea } from './components/PasswordArea.js';
-import { InclusionSet } from './components/InclusionSet.js'
+import { InclusionSet } from './components/InclusionSet.js';
+import { LengthSlider } from './components/LengthSlider.js';
 
 function App() {
   const characterSets = {
@@ -49,6 +50,7 @@ function App() {
 
       <p>Include:</p>
       <InclusionSet characterSetNames={characterSetNames} onClick={updateSelectedSets} isSelected={isSelected} />
+      <LengthSlider passwordLength={passwordLength} onChange={length => setPasswordLength(length)} />
     </div>
   );
 }

@@ -70,3 +70,15 @@ p {
   border-color: #C4C4C4;
   font-family: 'Montserrat', sans-serif;
 }
+
+.LengthSlider {
+  width: 50vw;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.LengthSlider input {
+  width: min(45vw, 500px);
+}
